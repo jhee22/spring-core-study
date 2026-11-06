@@ -1,7 +1,7 @@
 package hello.core.member;
 import java.util.*; 
 
-public class MemoryMemrberRepository implements MemberRepository{
+public class MemoryMemberRepository implements MemberRepository{
     private static Map<Long, Member> store = new HashMap<>(); 
 
     @Override
